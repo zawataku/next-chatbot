@@ -31,3 +31,15 @@ body {
     text-wrap: balance;
   }
 }
+
+@font-face {
+  font-style: normal;
+  font-family: 'Rounded M Plus 1c Regular';
+  src: url(/font/MPLUSRounded1c-Medium.ttf);
+}
+
+* {
+  font-family: 'Rounded M Plus 1c Regular';
+  font-weight: inherit;
+  /*フォントの乱れを修正*/
+}
